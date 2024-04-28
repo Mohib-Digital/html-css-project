@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logo {
+    display: block;
+    float: left;
+    margin-top: 12px;
+    padding: 10px 50px;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+
+}
+
+body {
+    font-family: tahoma;
+    background-image: url('./background-img2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav {
+    /* background-color: gray; */
+    height: 50px;
+}
+
+ul li {
+    display: inline;
+}
+
+li a {
+    font-size: 14px;
+    float: right;
+    padding: 30px 70px 0px 0px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+li a:hover {
+    text-decoration: underline #09cfbf 3px;
+    transition: all ease-in 0.5s;
+    cursor: pointer;
+    
+}
+
+.content {
+    /* border: 1px solid black; */
+    width: 650px;
+    margin: 200px auto;
+    text-align: center;
+    color: white;
+}
+
+.content .heading1 {
+    text-transform: uppercase;
+    font-size: 48px;
+    padding: 10px;
+    letter-spacing: 0.1em;
+}
+
+.content .content-paragraph {
+    text-transform: capitalize;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 1.5em;
+}
+
+.content .btn-1, .btn-2 {
+    width: 150px;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.content .btn-1 {
+    background-color: #09cfbf;
+    text-transform: uppercase;
+    border: none;
+}
+.content .btn-2 {
+    border: 2px solid #09cfbf;
+    text-transform: uppercase;
+    background-color: transparent;
+}
+
+.content .btn-1, .btn-2:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
