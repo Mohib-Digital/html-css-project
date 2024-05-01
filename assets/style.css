@@ -64,6 +64,10 @@ li a:hover {
     letter-spacing: 0.1em;
 }
 
+.heading1 {
+    text-shadow: 2px 2px 5px #f80915;
+}
+
 .content .content-paragraph {
     text-transform: capitalize;
     padding: 10px;
